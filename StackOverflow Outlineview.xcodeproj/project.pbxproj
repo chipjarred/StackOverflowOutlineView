@@ -13,6 +13,10 @@
 		45829709262162A700AB16E8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 45829707262162A700AB16E8 /* Main.storyboard */; };
 		45829715262162A700AB16E8 /* StackOverflow_OutlineviewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45829714262162A700AB16E8 /* StackOverflow_OutlineviewTests.swift */; };
 		45829720262162A700AB16E8 /* StackOverflow_OutlineviewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4582971F262162A700AB16E8 /* StackOverflow_OutlineviewUITests.swift */; };
+		45829731262162C600AB16E8 /* NSView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45829730262162C600AB16E8 /* NSView+Extension.swift */; };
+		45829736262162F900AB16E8 /* OVDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45829735262162F900AB16E8 /* OVDataSource.swift */; };
+		4582973B2621632800AB16E8 /* Debugging.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4582973A2621632800AB16E8 /* Debugging.swift */; };
+		4582974326216C6D00AB16E8 /* OVDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4582974226216C6D00AB16E8 /* OVDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +50,10 @@
 		4582971B262162A700AB16E8 /* StackOverflow OutlineviewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "StackOverflow OutlineviewUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4582971F262162A700AB16E8 /* StackOverflow_OutlineviewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackOverflow_OutlineviewUITests.swift; sourceTree = "<group>"; };
 		45829721262162A700AB16E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		45829730262162C600AB16E8 /* NSView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSView+Extension.swift"; sourceTree = "<group>"; };
+		45829735262162F900AB16E8 /* OVDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OVDataSource.swift; sourceTree = "<group>"; };
+		4582973A2621632800AB16E8 /* Debugging.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Debugging.swift; sourceTree = "<group>"; };
+		4582974226216C6D00AB16E8 /* OVDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OVDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +110,10 @@
 				45829707262162A700AB16E8 /* Main.storyboard */,
 				4582970A262162A700AB16E8 /* Info.plist */,
 				4582970B262162A700AB16E8 /* StackOverflow_Outlineview.entitlements */,
+				45829730262162C600AB16E8 /* NSView+Extension.swift */,
+				4582973A2621632800AB16E8 /* Debugging.swift */,
+				45829735262162F900AB16E8 /* OVDataSource.swift */,
+				4582974226216C6D00AB16E8 /* OVDelegate.swift */,
 			);
 			path = "StackOverflow Outlineview";
 			sourceTree = "<group>";
@@ -254,7 +266,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				45829704262162A500AB16E8 /* ViewController.swift in Sources */,
+				45829736262162F900AB16E8 /* OVDataSource.swift in Sources */,
+				4582973B2621632800AB16E8 /* Debugging.swift in Sources */,
+				4582974326216C6D00AB16E8 /* OVDelegate.swift in Sources */,
 				45829702262162A500AB16E8 /* AppDelegate.swift in Sources */,
+				45829731262162C600AB16E8 /* NSView+Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

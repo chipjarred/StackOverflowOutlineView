@@ -9,18 +9,27 @@ import Cocoa
 
 class ViewController: NSViewController {
 
+    var outlineViewData: OVDataSource? = OVDataSource()
+    var outlineView: NSOutlineView!
+    var outlineViewDelegate = OVDelegate()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+        outlineView = (
+            view.firstSubview { $0.identifier?.rawValue == "Outline" } as! NSOutlineView
+        )
+        outlineView.dataSource = outlineViewData
+        outlineView.delegate = outlineViewDelegate
+        outlineViewDelegate.enableDragAndDrop(for: outlineView)
+        
+        outlineView.reloadData()
     }
 
-    override var representedObject: Any? {
+    override var representedObject: Any?
+    {
         didSet {
         // Update the view, if already loaded.
         }
     }
-
-
 }
 
