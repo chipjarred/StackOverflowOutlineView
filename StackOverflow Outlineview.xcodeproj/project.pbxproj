@@ -1,0 +1,587 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		45829702262162A500AB16E8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45829701262162A500AB16E8 /* AppDelegate.swift */; };
+		45829704262162A500AB16E8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45829703262162A500AB16E8 /* ViewController.swift */; };
+		45829706262162A700AB16E8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 45829705262162A700AB16E8 /* Assets.xcassets */; };
+		45829709262162A700AB16E8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 45829707262162A700AB16E8 /* Main.storyboard */; };
+		45829715262162A700AB16E8 /* StackOverflow_OutlineviewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45829714262162A700AB16E8 /* StackOverflow_OutlineviewTests.swift */; };
+		45829720262162A700AB16E8 /* StackOverflow_OutlineviewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4582971F262162A700AB16E8 /* StackOverflow_OutlineviewUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		45829711262162A700AB16E8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 458296F6262162A500AB16E8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 458296FD262162A500AB16E8;
+			remoteInfo = "StackOverflow Outlineview";
+		};
+		4582971C262162A700AB16E8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 458296F6262162A500AB16E8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 458296FD262162A500AB16E8;
+			remoteInfo = "StackOverflow Outlineview";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		458296FE262162A500AB16E8 /* StackOverflow Outlineview.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "StackOverflow Outlineview.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		45829701262162A500AB16E8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		45829703262162A500AB16E8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		45829705262162A700AB16E8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		45829708262162A700AB16E8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4582970A262162A700AB16E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4582970B262162A700AB16E8 /* StackOverflow_Outlineview.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = StackOverflow_Outlineview.entitlements; sourceTree = "<group>"; };
+		45829710262162A700AB16E8 /* StackOverflow OutlineviewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "StackOverflow OutlineviewTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		45829714262162A700AB16E8 /* StackOverflow_OutlineviewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackOverflow_OutlineviewTests.swift; sourceTree = "<group>"; };
+		45829716262162A700AB16E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4582971B262162A700AB16E8 /* StackOverflow OutlineviewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "StackOverflow OutlineviewUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4582971F262162A700AB16E8 /* StackOverflow_OutlineviewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackOverflow_OutlineviewUITests.swift; sourceTree = "<group>"; };
+		45829721262162A700AB16E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		458296FB262162A500AB16E8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4582970D262162A700AB16E8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45829718262162A700AB16E8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		458296F5262162A500AB16E8 = {
+			isa = PBXGroup;
+			children = (
+				45829700262162A500AB16E8 /* StackOverflow Outlineview */,
+				45829713262162A700AB16E8 /* StackOverflow OutlineviewTests */,
+				4582971E262162A700AB16E8 /* StackOverflow OutlineviewUITests */,
+				458296FF262162A500AB16E8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		458296FF262162A500AB16E8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				458296FE262162A500AB16E8 /* StackOverflow Outlineview.app */,
+				45829710262162A700AB16E8 /* StackOverflow OutlineviewTests.xctest */,
+				4582971B262162A700AB16E8 /* StackOverflow OutlineviewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		45829700262162A500AB16E8 /* StackOverflow Outlineview */ = {
+			isa = PBXGroup;
+			children = (
+				45829701262162A500AB16E8 /* AppDelegate.swift */,
+				45829703262162A500AB16E8 /* ViewController.swift */,
+				45829705262162A700AB16E8 /* Assets.xcassets */,
+				45829707262162A700AB16E8 /* Main.storyboard */,
+				4582970A262162A700AB16E8 /* Info.plist */,
+				4582970B262162A700AB16E8 /* StackOverflow_Outlineview.entitlements */,
+			);
+			path = "StackOverflow Outlineview";
+			sourceTree = "<group>";
+		};
+		45829713262162A700AB16E8 /* StackOverflow OutlineviewTests */ = {
+			isa = PBXGroup;
+			children = (
+				45829714262162A700AB16E8 /* StackOverflow_OutlineviewTests.swift */,
+				45829716262162A700AB16E8 /* Info.plist */,
+			);
+			path = "StackOverflow OutlineviewTests";
+			sourceTree = "<group>";
+		};
+		4582971E262162A700AB16E8 /* StackOverflow OutlineviewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4582971F262162A700AB16E8 /* StackOverflow_OutlineviewUITests.swift */,
+				45829721262162A700AB16E8 /* Info.plist */,
+			);
+			path = "StackOverflow OutlineviewUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		458296FD262162A500AB16E8 /* StackOverflow Outlineview */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 45829724262162A700AB16E8 /* Build configuration list for PBXNativeTarget "StackOverflow Outlineview" */;
+			buildPhases = (
+				458296FA262162A500AB16E8 /* Sources */,
+				458296FB262162A500AB16E8 /* Frameworks */,
+				458296FC262162A500AB16E8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "StackOverflow Outlineview";
+			productName = "StackOverflow Outlineview";
+			productReference = 458296FE262162A500AB16E8 /* StackOverflow Outlineview.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4582970F262162A700AB16E8 /* StackOverflow OutlineviewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 45829727262162A700AB16E8 /* Build configuration list for PBXNativeTarget "StackOverflow OutlineviewTests" */;
+			buildPhases = (
+				4582970C262162A700AB16E8 /* Sources */,
+				4582970D262162A700AB16E8 /* Frameworks */,
+				4582970E262162A700AB16E8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				45829712262162A700AB16E8 /* PBXTargetDependency */,
+			);
+			name = "StackOverflow OutlineviewTests";
+			productName = "StackOverflow OutlineviewTests";
+			productReference = 45829710262162A700AB16E8 /* StackOverflow OutlineviewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4582971A262162A700AB16E8 /* StackOverflow OutlineviewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4582972A262162A700AB16E8 /* Build configuration list for PBXNativeTarget "StackOverflow OutlineviewUITests" */;
+			buildPhases = (
+				45829717262162A700AB16E8 /* Sources */,
+				45829718262162A700AB16E8 /* Frameworks */,
+				45829719262162A700AB16E8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4582971D262162A700AB16E8 /* PBXTargetDependency */,
+			);
+			name = "StackOverflow OutlineviewUITests";
+			productName = "StackOverflow OutlineviewUITests";
+			productReference = 4582971B262162A700AB16E8 /* StackOverflow OutlineviewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		458296F6262162A500AB16E8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1210;
+				LastUpgradeCheck = 1210;
+				TargetAttributes = {
+					458296FD262162A500AB16E8 = {
+						CreatedOnToolsVersion = 12.1;
+					};
+					4582970F262162A700AB16E8 = {
+						CreatedOnToolsVersion = 12.1;
+						TestTargetID = 458296FD262162A500AB16E8;
+					};
+					4582971A262162A700AB16E8 = {
+						CreatedOnToolsVersion = 12.1;
+						TestTargetID = 458296FD262162A500AB16E8;
+					};
+				};
+			};
+			buildConfigurationList = 458296F9262162A500AB16E8 /* Build configuration list for PBXProject "StackOverflow Outlineview" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 458296F5262162A500AB16E8;
+			productRefGroup = 458296FF262162A500AB16E8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				458296FD262162A500AB16E8 /* StackOverflow Outlineview */,
+				4582970F262162A700AB16E8 /* StackOverflow OutlineviewTests */,
+				4582971A262162A700AB16E8 /* StackOverflow OutlineviewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		458296FC262162A500AB16E8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45829706262162A700AB16E8 /* Assets.xcassets in Resources */,
+				45829709262162A700AB16E8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4582970E262162A700AB16E8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45829719262162A700AB16E8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		458296FA262162A500AB16E8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45829704262162A500AB16E8 /* ViewController.swift in Sources */,
+				45829702262162A500AB16E8 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4582970C262162A700AB16E8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45829715262162A700AB16E8 /* StackOverflow_OutlineviewTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45829717262162A700AB16E8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45829720262162A700AB16E8 /* StackOverflow_OutlineviewUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		45829712262162A700AB16E8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 458296FD262162A500AB16E8 /* StackOverflow Outlineview */;
+			targetProxy = 45829711262162A700AB16E8 /* PBXContainerItemProxy */;
+		};
+		4582971D262162A700AB16E8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 458296FD262162A500AB16E8 /* StackOverflow Outlineview */;
+			targetProxy = 4582971C262162A700AB16E8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		45829707262162A700AB16E8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				45829708262162A700AB16E8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		45829722262162A700AB16E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		45829723262162A700AB16E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		45829725262162A700AB16E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "StackOverflow Outlineview/StackOverflow_Outlineview.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = B6QFK6MJHL;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = "StackOverflow Outlineview/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.skynet.StackOverflow-Outlineview";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		45829726262162A700AB16E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "StackOverflow Outlineview/StackOverflow_Outlineview.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = B6QFK6MJHL;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = "StackOverflow Outlineview/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.skynet.StackOverflow-Outlineview";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		45829728262162A700AB16E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = B6QFK6MJHL;
+				INFOPLIST_FILE = "StackOverflow OutlineviewTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.skynet.StackOverflow-OutlineviewTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/StackOverflow Outlineview.app/Contents/MacOS/StackOverflow Outlineview";
+			};
+			name = Debug;
+		};
+		45829729262162A700AB16E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = B6QFK6MJHL;
+				INFOPLIST_FILE = "StackOverflow OutlineviewTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.skynet.StackOverflow-OutlineviewTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/StackOverflow Outlineview.app/Contents/MacOS/StackOverflow Outlineview";
+			};
+			name = Release;
+		};
+		4582972B262162A700AB16E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = B6QFK6MJHL;
+				INFOPLIST_FILE = "StackOverflow OutlineviewUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.skynet.StackOverflow-OutlineviewUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "StackOverflow Outlineview";
+			};
+			name = Debug;
+		};
+		4582972C262162A700AB16E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = B6QFK6MJHL;
+				INFOPLIST_FILE = "StackOverflow OutlineviewUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.skynet.StackOverflow-OutlineviewUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "StackOverflow Outlineview";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		458296F9262162A500AB16E8 /* Build configuration list for PBXProject "StackOverflow Outlineview" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45829722262162A700AB16E8 /* Debug */,
+				45829723262162A700AB16E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		45829724262162A700AB16E8 /* Build configuration list for PBXNativeTarget "StackOverflow Outlineview" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45829725262162A700AB16E8 /* Debug */,
+				45829726262162A700AB16E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		45829727262162A700AB16E8 /* Build configuration list for PBXNativeTarget "StackOverflow OutlineviewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45829728262162A700AB16E8 /* Debug */,
+				45829729262162A700AB16E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4582972A262162A700AB16E8 /* Build configuration list for PBXNativeTarget "StackOverflow OutlineviewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4582972B262162A700AB16E8 /* Debug */,
+				4582972C262162A700AB16E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 458296F6262162A500AB16E8 /* Project object */;
+}
