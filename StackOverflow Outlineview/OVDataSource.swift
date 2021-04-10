@@ -100,7 +100,13 @@ class Item: CustomStringConvertible
         proposedItem item: Any?,
         proposedChildIndex index: Int) -> NSDragOperation
     {
-        trace()
+        trace("item = \(String(describing: item)), index = \(index)")
+        guard info.draggingSource as? NSOutlineView === outlineView else {
+            return []
+        }
+        
+        outlineView.draggingDestinationFeedbackStyle = .gap
+
         if item == nil, index < 0 {
             return []
         }
@@ -116,18 +122,44 @@ class Item: CustomStringConvertible
     {
         assert(item == nil || item is Item)
         
-        trace()
+        trace("item = \(String(describing: item)), index = \(index)")
         guard let sourceTitle = info.draggingPasteboard.string(forType: .string),
               let source = parentAndChildIndex(forItemTitled: sourceTitle)
         else { return false }
-        trace("source = \(String(describing: source))")
         
-        moveItem(from: source, to: (item as? Item, index))
+        let debuggedIndex = translateIndexForGapBug(
+            outlineView,
+            item: item,
+            index: index,
+            for: info
+        )
+        moveItem(from: source, to: (item as? Item, debuggedIndex))
         outlineView.reloadData()
 
         return true
     }
     
+    //------------------------------
+    func translateIndexForGapBug(
+        _ outlineView: NSOutlineView,
+        item: Any?,
+        index: Int,
+        for info: NSDraggingInfo) -> Int
+    {
+        guard outlineView.draggingDestinationFeedbackStyle == .gap,
+              items.count > 0,
+              item == nil,
+              index == 0
+        else { return index }
+        
+        let point = outlineView.convert(info.draggingLocation, from: nil)
+        let firstCellFrame = outlineView.frameOfCell(atColumn: 0, row: 0)
+        return outlineView.isFlipped
+            ? (point.y < firstCellFrame.maxY ? index : items.count)
+            : (point.y >= firstCellFrame.minY ? index : items.count)
+    }
+    
+    //------------------------------
     func parentAndChildIndex(forItemTitled title: String) -> (parent: Item?, index: Int)?
     {
         trace("Finding parent and child for item: \"\(title)\"")
